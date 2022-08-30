@@ -6,15 +6,15 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
   before: `
-━━ 『 *3S Bot* 』 ━━
+━━ 『 *ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ* 』 ━━
 ➸ Hallo👋 %name!
 ➸ Kamu Adalah Role %role
 ➸ Kamu adalah %rank
 ➸ Tersisa *%limit Limit*
 ➸ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 %totalexp XP in Total
-➸ Owner: https://wa.me/6283175886677
-➸ Grup Wa Bot: *https://chat.whatsapp.com/KE7aJ2nihCYFmpylMz3ttz*\n*Yang Mau Masuk Silahkan*
+➸ Owner: https://wa.me/15012058590
+➸ Grup Wa Bot: *https://chat.whatsapp.com/ERwhVvITxTXIF9fWZWYIPE*\n*Yang Mau Masuk Silahkan*
  
 %readmore`.trimStart(),
   header: '╭─『 %category 』',
@@ -207,137 +207,137 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `Menu Utama`,
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? all"
                 },
                  {
                   "title": "Acc",
-                  "description": "© 3S~Bot\nFitur Ini Khusus User Yang Di Acc",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ\nFitur Ini Khusus User Yang Di Acc",
                   "rowId": ".? acc"
                 },
                 {
                   "title": "Daftar",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? daftar"
                 },
                 {
                   "title": "Rules",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? rules"
                 },
                  {
                   "title": "Request Fitur",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? request"
                 },
                 {
                   "title": "Main",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? main"
                 },
                   {
                   "title": "Game",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? game"
                 }, {
                   "title": "Exp & Limit",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? xp"
                 }, {
                   "title": "Sticker",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? sticker"
                 }, 
                 {
                   "title": "Donasi",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? donasi"
                 },
                 {
                   "title": "Kerang Ajaib",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? kerang"
                 }, {
                   "title": "Quotes",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? quotes"
                 }, {
                   "title": "Admin",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? admin"
                 }, {
                   "title": "Grup",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? group"
                 },
                 {
                   "title": "Premium",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? premium"
                 }, {
                   "title": "Internet",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? internet"
                 },
                 {
                   "title": "Anonymous Chat",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                  "rowId": ".? anonymous"
                 },
                 {
                   "title": "Nulis & Logo",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? nulis"
                 }, {
                   "title": "Downloader",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? downloader"
                 }, {
                   "title": "Tools",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? tools"
                 }, {
                   "title": "Fun",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? fun"
                 }, {
                   "title": "Database",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? database"
                 },
                 {
                   "title": "Al-Qur'an",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? quran"
                 },
                 {
                   "title": "Jadi Bot",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? jadibot"
                 },
                    {
                   "title": "Owner",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? owner"
                 },
                 {
                   "title": "Host",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? host"
                 },
                 {
                   "title": "Advanced",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? advanced"
                 },
                 {
                   "title": "Info",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? info"
                 },
                 {
                   "title": "Exp",
-                  "description": "© 3S~Bot",
+                  "description": "© ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ",
                   "rowId": ".? exp"
                 },
               ]
