@@ -1,10 +1,10 @@
-global.you = ['5219996125657', '6283170404188', '6283175886677', '6282181661561'] // Developer Bot
-global.rowner = [] // Real Owner Bot
-global.owner = [] // Owner Bot
-global.police = [] // Police Bot
-global.mods = []  // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.helper = []
+global.you = ['15012058590', '6283183321692', '6283175886677', '6282181661561'] // Developer Bot
+global.rowner = ['15012058590'] // Real Owner Bot
+global.owner = ['15012058590'] // Owner Bot
+global.police = ['15012058590'] // Police Bot
+global.mods = ['15012058590']  // Want some help?
+global.prems = ['15012058590'] // Premium user has unlimited limit
+global.helper = ['15012058590']
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -44,9 +44,9 @@ global.socket = {
 global.useMulti = false //Bug?
 
 // Sticker WM
-global.packname = '3S~Bot'
-global.author = 'ThreeSBot'
-global.wm = '© 3S~Bot'
+global.packname = 'ʙʟᴀᴄᴋ ʙᴏᴛ ᴏғᴄ'
+global.author = '𝑇𝑧𝑝𝑒𝑟'
+global.wm = '© ʙʟᴀᴄᴋ ᴏғᴄ'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
